@@ -1,0 +1,698 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.top-section-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+}
+
+.left-top-section {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1%;
+}
+
+.sidebar-icon {
+    box-sizing: border-box;
+    color :rgb(3, 3, 3);
+    display :block;
+    font-family: Roboto, Arial, sans-serif;
+    font-size :0px;
+    height: 40px;
+    margin:0px;
+    padding:8px;
+    position :relative;
+    text-size-adjust: 100%;
+    width :40px;
+    margin-bottom: 2px;
+    
+}
+.sidebar-icon img{
+    width: 24px;
+    margin-left: 15px;
+}
+.youtube-logo {
+    padding-left: 20px;
+    
+}
+
+.youtube-logo img {
+    width: 100px;
+   
+}
+
+
+.main-content-container {
+    padding-top: 50px;/* Adjust as needed to avoid overlapping with the top section */
+    display: flex;
+    margin-top: 10px;
+}
+
+.left-section-container {
+    width: 14%;
+    height: 93.5vh;
+    background-color: #ffffff;
+    overflow-y: auto;
+
+}
+
+.top-left-section, .middle-left-section, .bottom-left-section {
+    height: 30%; /* 30%, 40%, 30% respectively */
+    padding: 10px;
+}
+
+.right-section-container {
+    width: 90%;
+    height: 93.8vh;
+    
+}
+
+.right-top-section-container {
+    height: 5%;
+    background-color: #ffcc00;
+    display: flex;
+    
+}
+
+.right-main-content {
+    height: 80%;
+    
+}
+
+
+.search-container {
+    display :flex;
+    flex-basis :1e-09px;
+    flex-grow :1;
+    flex-shrink :1;
+    font-family :Roboto, Arial, sans-serif;
+    font-size :10px;
+    height :40px;
+    margin-bottom :0px;
+    margin-left :40px;
+    margin-right :0px;
+    margin-top: 5px;
+    padding-bottom: 0px;
+    padding-left :4px;
+    
+    padding-top: 0px;
+    text-size-adjust :100%;
+    width :632px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.search-container input {
+    appearance: none;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgb(17, 17, 17);
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice :100%;
+    border-image-source: none;
+    border-image-width :1;
+    border-left-color :rgb(17, 17, 17);
+    border-left-style :none;
+    border-left-width :0px;
+    border-right-color: rgb(17, 17, 17);
+    border-right-style: none;
+    border-right-width: 0px;
+    border-top-color :rgb(17, 17, 17);
+    border-top-style :none;
+    border-top-width :0px;
+    box-shadow :none;
+    box-sizing :border-box;
+    caret-color: rgb(15, 15, 15);
+    color :rgb(17, 17, 17);
+    cursor: text;
+    direction :ltr;
+    display :inline-block;
+    flex-basis: 1e-09px;
+    flex-grow :1;
+    flex-shrink :1;
+    font-family :Roboto, Noto, sans-serif;
+    font-feature-settings: normal;
+    font-kerning :auto;
+    font-optical-sizing :auto;
+    font-size :16px;
+    font-stretch :100%;
+    font-style :normal;
+    font-variant-alternates: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian :normal;
+    font-variant-ligatures :normal;
+    font-variant-numeric :normal;
+    font-variant-position :normal;
+    font-variation-settings :normal;
+    font-weight :400;
+    height :26px;
+    letter-spacing: normal;
+    line-height: 24px;
+    margin:0px;
+    max-width :100%;
+    outline-color :rgb(17, 17, 17);
+    outline-style :none;
+    outline-width: 0px;
+    padding-bottom :1px;
+    padding-left :10px;
+    padding-right: 0px;
+    padding-top :12px;
+    text-align :start;
+    text-indent: 0px;
+    text-rendering :auto;
+    text-shadow :none;
+    text-transform :none;
+    unicode-bidi :isolate;
+    width :515px;
+    word-spacing: 0px;
+    writing-mode: horizontal-tb;
+    -webkit-box-flex: 1;
+    -webkit-font-smoothing :antialiased;
+    -webkit-rtl-ordering :logical;
+    
+}
+
+
+.search-icons {
+    appearance :auto;
+    background-color: rgb(240, 240, 240);
+    
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice :100%;
+    border-image-source: none;
+    border-image-width :1;
+    border-left-color :rgb(211, 211, 211);
+    border-left-style :solid;
+    border-left-width :1px;
+    
+    
+    box-sizing :border-box;
+    color: rgb(0, 0, 0);
+    cursor: default;
+    display :block;
+    font-family :Arial;
+    font-feature-settings :normal;
+    font-kerning :auto;
+    font-optical-sizing :auto;
+    font-size: 13.3333px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-alternates: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric :normal;
+    font-variant-position: normal;
+    font-variation-settings: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align :center;
+    text-indent: 0px;
+    text-rendering :auto;
+    text-shadow :none;
+    text-transform: none;
+    word-spacing: 0px;
+    writing-mode :horizontal-tb;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+   width: 70px;
+   margin-left: 15px;
+}
+
+.search-icons img {
+    font-size: 20px; /* Adjust the size as needed */
+    color: #666; /* Icon color */
+    padding-right: 15px;
+    padding-top: 9px;
+    padding-left: 15px;
+    width: 20px;
+    height: 20px;
+}
+.middle-top-section{
+    align-items: center;
+    display: flex;
+    flex-basis :732px;
+    flex-direction :row; 
+    font-family: Roboto, Arial, sans-serif;   
+    height :40px;
+    margin-top: 6px;
+}
+.micro img{
+ 
+    background-color: rgb(240, 240, 240);
+    border-bottom-left-radius :50%;
+    border-bottom-right-radius :50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    bottom: 0px;
+    color :rgb(15, 15, 15);
+    cursor :pointer;
+    display: block;
+    font-weight :500;
+    height :22px;
+    letter-spacing :normal;
+    line-height :36px;
+    position :absolute;
+    text-align: center;
+    text-indent :0px;
+    text-rendering :auto;
+    text-shadow :none;
+    text-transform: none;
+    text-wrap :nowrap;
+    top: 0px;
+    white-space-collapse :collapse;
+    width: 22px;
+    will-change: opacity;
+    word-spacing: 0px;
+    writing-mode: horizontal-tb;
+    -webkit-tap-highlight-color :rgba(0, 0, 0, 0);
+    padding: 10px;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+.right-top-section {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right-top-section i {
+    font-size: 24px; /* Adjust the size as needed */
+    color: #333; /* Icon color */
+    margin-left: 10px; /* Spacing between icons */
+}
+.user{
+    aspect-ratio: auto 32 / 32;
+    background-attachment :scroll;
+    background-clip: border-box;
+    background-color: rgba(255, 98, 0, 0.956);
+    background-image :none;
+    background-origin: padding-box;
+    background-position-x :0%;
+    background-position-y :0%;
+    background-repeat-x :repeat;
+    background-repeat-y :repeat;
+    background-size :auto;
+    border-bottom-color :rgba(226, 94, 12, 0.956);
+    border-bottom-left-radius :0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-image-outset :0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source :none;
+    border-image-width :1;
+    border-left-color :rgba(226, 94, 12, 0.956);
+    border-left-style :none;
+    border-left-width :0px;
+    border-right-color :rgba(223, 99, 11, 0.956);
+    border-right-style: none;
+    border-right-width :0px;
+    border-top-color :rgba(223, 99, 11, 0.956);
+    border-top-left-radius :0px;
+    border-top-right-radius :0px;
+    border-top-style: none;
+    border-top-width: 0px;
+    border-radius: 50%;
+    color :rgb(255, 255, 255);
+    cursor: pointer;
+    display :block;
+    font-family:Arial;
+    font-weight :400;
+    height: 25px;
+    letter-spacing :normal;
+    line-height :normal;
+    max-height :none;
+    max-width:100%;
+
+    height: 25px;
+    pointer-events :auto;
+    text-align: center;
+    text-indent :0px;
+    text-rendering :auto;
+    text-shadow: none;
+    text-size-adjust :100%;
+    text-transform :none;
+    width: 25px;
+    word-spacing: 0px;
+    writing-mode: horizontal-tb;
+    -webkit-user-drag: none;
+   padding-top: 10px;
+   padding-right: 5px;
+   padding-left: 5px;
+   margin-top: 8px;
+   margin-right: 30px;
+}
+
+.bell {
+    width: 30px;
+    height: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+}
+.cam {
+    background-color :rgba(0, 0, 0, 0);
+    color :rgb(3, 3, 3);
+    cursor :pointer;
+    display: block;
+    font-family :Roboto, Arial, sans-serif;
+    font-size :0px;
+    height: 40px;
+    line-height :0px;
+    
+    pointer-events: auto;
+    position :relative;
+    text-size-adjust: 100%;
+    text-transform :uppercase;
+    width: 40px;
+    padding-right: 30px;
+}
+.cam img{
+    background-attachment :scroll;
+    background-clip :border-box;
+    background-color :rgba(0, 0, 0, 0);
+    background-image :none;
+    background-position-x :0%;
+    background-position-y :0%;
+    background-repeat-x :repeat;
+    background-repeat-y :repeat;
+    background-size :auto;
+    border-bottom-color: rgb(3, 3, 3);
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice :100%;
+    border-image-source: none;
+    border-image-width :1;
+    border-left-color :rgb(3, 3, 3);
+    border-left-style :none;
+    border-left-width :0px;
+    border-right-color: rgb(3, 3, 3);
+    border-right-style: none;
+    border-right-width: 0px;
+    border-top-color :rgb(3, 3, 3);
+    border-top-style :none;
+    border-top-width :0px;
+    color :rgb(3, 3, 3);
+    cursor :pointer;
+    display :block;
+    fill: rgb(3, 3, 3);
+    height: 30px;
+    letter-spacing: normal;
+    line-height: 0px;
+    margin:0px;
+    
+    pointer-events: auto;
+    stroke :none;
+    text-align :center;
+    text-indent :0px;
+    text-rendering :auto;
+    text-shadow :none;
+    text-transform :none;
+    width :24px;
+    word-spacing :0px;
+    writing-mode :horizontal-tb;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.list_of_nav_items {
+    list-style: none;
+    padding: 0;
+}
+
+.single_list_of_nav_item {
+    display: flex;
+    margin: 10px ;
+    font-size: 16px;
+    align-items :center;
+    color :rgb(15, 15, 15);
+    cursor: pointer;
+    flex-direction :row;
+    font-family :Roboto, Noto, sans-serif;
+    font-size :16px;
+    font-weight :400;
+    height :40px;
+    line-height: 24px;
+    min-height :40px;
+    min-width :0px;
+    padding-bottom :0px;
+    padding-left :12px;
+    padding-right:12px;
+    padding-top :0px;
+    position :relative;
+    text-wrap :nowrap;
+    visibility :visible;
+    white-space-collapse :collapse;
+    width :180px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.single_list_of_nav_item img {
+    font-size: 18px;
+    color: #000000;
+    margin-right: 20px;
+    color: rgb(3, 3, 3);
+    cursor: pointer;
+    display :block;
+    fill: rgb(3, 3, 3);
+    font-family :Roboto, Noto, sans-serif;
+    font-size :16px;
+    font-weight :400;
+    
+    line-height :24px;
+    margin:0px;
+    padding:0px;
+    stroke :none;
+    text-wrap: nowrap;
+    visibility :visible;
+    white-space-collapse :collapse;
+    
+    -webkit-font-smoothing: antialiased;
+}
+.single_list_of_nav_item span{
+    color :rgb(15, 15, 15);
+    cursor: pointer;
+    display: block;
+    flex-basis :1e-09px;
+    flex-grow: 1;
+    flex-shrink :1;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight :500;
+    height :20px;
+    line-height :20px;
+    overflow-x: hidden;
+    overflow-y :hidden;
+    text-overflow :ellipsis;
+    text-wrap :nowrap;
+    visibility :visible;
+    padding-left: 15px;
+    white-space-collapse: collapse;
+    width: 132px;
+    -webkit-font-smoothing :antialiased;
+}
+.remaining_space {
+    flex: 1; /* Takes up the remaining space */
+}
+/* Apply a border-bottom to separate the sections with a gray line */
+.top_left_section,
+.middle_left_section,
+.bottom_left_section {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+/* Style for the "Subscriptions" heading */
+.bottom_left_section h2 {
+    font-weight: bold;
+    margin: 10px 10px;
+}
+
+/* Styles for the right-section-container */
+.right-section-container {
+    width: 100%;
+    float: right;
+    /* Add other styles for the container as needed */
+}
+
+/* Styles for the top section */
+.right-top{
+    padding: 10px;
+   position: fixed;
+   background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Styles for the list of tags */
+.list-of-tags {
+    display: flex;
+    overflow-x: auto;
+}
+
+/* Styles for individual tags */
+.single-tag {
+    background-color: #f2f2f2;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    white-space: nowrap;
+}
+
+/* Styles for the navigation icon */
+.arrow-nav-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Styles for the middle section */
+.right-middle-section {
+    padding-top: 70px;
+}
+
+/* Styles for the videos grid */
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 10px;
+    padding: 10px;
+}
+
+/* Styles for the video title */
+.video-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+    overflow-wrap: break-word;  
+    word-wrap: break-word; 
+    word-break: break-word;
+   
+}
+
+/* Styles for the channel name */
+.channel-name {
+    color: #555;
+    margin-bottom: 5px;
+}
+.views-and-time{
+    color: #555;
+}
+/* Horizontal scroll for list of tags */
+.list-of-tags {
+    white-space: nowrap;
+    overflow-x: scroll;
+    -ms-overflow-style: none; /* Hide scrollbar in Edge and IE */
+    scrollbar-width: none; /* Hide scrollbar in Firefox */
+}
+.avatar-channel{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+/* Hide scrollbar for list of tags in Firefox */
+.list-of-tags::-webkit-scrollbar {
+    display: none;
+   
+}
+.single-tag:hover{
+    background-color: #d2d2d2;
+}
+/* Add hover effect for single tag */
+.single_list_of_nav_item:hover {
+    background-color: #f0f0f0;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 10px;
+}
+.sub{
+    border:15px #575757 solid ;
+    border-radius: 50%;
+    background-color: #000000;
+}
+.sidebar-icon button{
+    background-color: #ffffff;
+    border: none
+}
+.left_section_container {
+    overflow-y: auto;
+    height: 100vh; /* Set the desired height for the left container */
+    scrollbar-width: thin; /* Customize the width of the scrollbar (optional) */
+    scrollbar-color: #888 #f0f0f0; /* Customize the scrollbar colors (optional) */
+}
+
+/* Styles for the right-section-container scrollbar */
+.right-section-container {
+    overflow-y: auto;
+    height: 100vh; /* Set the desired height for the right container */
+    scrollbar-width: thin; /* Customize the width of the scrollbar (optional) */
+    scrollbar-color: #888 #f0f0f0; /* Customize the scrollbar colors (optional) */
+}
+
+.mic-label {
+    position: absolute;
+    bottom: -45px;
+    left: 70%;
+    transform: translateX(-50%);
+    background-color: #7e7e7e;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    display: none;
+    font-size: 15px;
+}
+
+/* Show the label on hover */
+.mic-icon-container:hover .mic-label {
+    display: block;
+}
+
+.cam-label {
+    position: absolute;
+    bottom: -45px;
+    right: 7%;
+    transform: translateX(-50%);
+    background-color: #7e7e7e;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    display: none;
+    font-size: 15px;
+}
+
+/* Show the label on hover */
+.cam-icon-container:hover .cam-label {
+    display: block;
+}
+
+.bell-label {
+    position: absolute;
+    bottom: -45px;
+    right: 1%;
+    transform: translateX(-50%);
+    background-color: #7e7e7e;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    display: none;
+    font-size: 15px;
+}
+
+/* Show the label on hover */
+.bell-icon-container:hover .bell-label {
+    display: block;
+}
