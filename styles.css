@@ -696,3 +696,6 @@ body {
 .bell-icon-container:hover .bell-label {
     display: block;
 }
+.sidebar-toggle-button{
+    border: none;
+}
